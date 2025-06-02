@@ -1,0 +1,68 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# Environment files
+.env
+.env.*
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# macOS specific
+.DS_Store
+
+# Logs and outputs
+*.log
+logs/
+*.out
+
+# Model checkpoints and weights
+checkpoints/
+*.pt
+*.pth
+
+# Data files and folders
+data/
+datasets/
+
+# Temporary files
+tmp/
+temp/
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# pytest cache
+.pytest_cache/
+
+# mypy cache
+.mypy_cache/
+
+# build folders
+build/
+dist/
+*.egg-info/
+
+# system-specific files
+*.swp

@@ -1,0 +1,27 @@
+import torch
+
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+EPOCHS = 400
+
+BATCH_SIZE = 8
+LR = 1e-4
+WEIGHT_DECAY = 1e-4
+
+ALPHA_FACE = 0.5
+ALPHA_TEXT = 0.5
+ALPHA_BANNER = -1.0
+LAMBDA_NSS = 0.9
+LAMBDA_KL = 0.0
+LAMBDA_TV = 0.2
+LAMBDA_CC = 0.2
+HIDDEN_DIM = 2048
+EMBED_DIM = 1024
+PATCH_SIZE = 16
+
+IN_H, IN_W = 288, 512
+OUT_H, OUT_W = 36, 64
+GT_H, GT_W = 720, 1280
+
+USE_FACE_MASK = True
+USE_TEXT_MASK = True
+USE_BANNER_MASK = True
