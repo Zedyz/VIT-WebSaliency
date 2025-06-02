@@ -1,6 +1,6 @@
 # Visual Saliency Prediction Project
 
-This repository contains code for a visual saliency prediction project using a Vision-Transformer model combined with four decoders (Face, Text, Banner, and Base) and a small component saliency prediction fusion head for full-resolution visual-saliency prediction.
+This repository contains code for a visual saliency prediction project using a Vision Transformer model combined with four decoders (Face, Text, Banner, and Base) and a small component saliency prediction fusion head for full-resolution visual-saliency prediction.
 
 The dataset and trained model can be downloaded here:
 
